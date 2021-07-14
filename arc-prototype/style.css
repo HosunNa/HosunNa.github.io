@@ -17,11 +17,17 @@ body {
     padding: 0 0 21px 0;
 }
 /* background-color is used for make a background color as that section */
+/* text-align is used for make the section in the center */
+/* list-style is used for removing the buliet buttons */
+/* text-decoration is used for removing underline */
+/* padding is used for adjusting the space */
 
 
 .mainheader h1 img {
     width: 40vw;
 }
+
+/* width is used for making the size of images */
 
 .mainheader .navigation ul {
     padding: 0 0 0 21px;
@@ -35,11 +41,16 @@ body {
     list-style:none;
  }
 
+/* margin-bottom is used for make the margin at the bottom */
+
 .mainheader .navigation a.headhome {
     font-weight: bold;
     color: #F2F2F2;
     text-decoration: none;
 }
+
+/* font-weight is used for choosing font more bold */
+/* color is used for making specific color on it */
 
 .mainheader .navigation a.headabout {
     color: #F2F2F2;
@@ -70,6 +81,8 @@ body {
     margin: 33px 0 23px 0;
 }
 
+/* line-height is used for creating space between letters */
+
 .discover .icons {
     display: flex;
     flex-wrap: wrap;
@@ -77,6 +90,10 @@ body {
     flex-direction: row;
     padding: 0 20px;
 }
+
+/* display is used for make the order in the list */
+/* flex-wrap is used for dividing overflow icons */
+/* justify-content is used for dividing with the same space */
 
 .icons li {
     width: 80px;
