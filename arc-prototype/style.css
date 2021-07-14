@@ -1,0 +1,419 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
+
+body {
+    font-family: 'Raleway', 'sans-serif';
+    font-size: 4vw;
+}
+/* font-family is used for making same font */
+/* font-size is used for make standard font size */
+
+.mainheader {
+    background-color: #3C3B3A;
+    text-align: center;
+    list-style:none;
+    text-decoration:none;
+    padding: 0 0 21px 0;
+}
+/* background-color is used for make a background color as that section */
+
+
+.mainheader h1 img {
+    width: 40vw;
+}
+
+.mainheader .navigation ul {
+    padding: 0 0 0 21px;
+}
+
+
+
+.mainheader .navigation li {
+    margin-bottom: 30px;
+    font-size: 4.8vw;
+    list-style:none;
+ }
+
+.mainheader .navigation a.headhome {
+    font-weight: bold;
+    color: #F2F2F2;
+    text-decoration: none;
+}
+
+.mainheader .navigation a.headabout {
+    color: #F2F2F2;
+    text-decoration: none;
+}
+
+.mainheader .navigation a.headcontact {
+    color: #F2F2F2;
+    text-decoration: none;
+}
+
+.mainheader .navigation li:last-child {
+    margin-bottom: 0;
+}
+
+.discover {
+    padding: 0px 69px 0 39px;
+}
+
+.discover h2 {
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+.discover p {
+    font-size: 20px;
+    line-height: 2;
+    margin: 33px 0 23px 0;
+}
+
+.discover .icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 0 20px;
+}
+
+.icons li {
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    font-size: 17px;
+    color: #26A682;
+    list-style: none;
+}
+
+.icons li:nth-child(1) {
+    margin: 0 0 0 0;
+}
+
+.discoverbutton {
+    background-color: #26A682;
+    color: #F2F2F2;
+    font-weight: bold;
+    font-size: 32px;
+    border-radius: 60px;
+    width: 80vw;
+    border: none;
+    padding: 0.8rem;
+    margin: 0 0 0 0;
+    box-shadow: 0 10px 10px rgba(21, 90, 71, 0.5);
+}
+
+.discover img {
+    max-width: 100%;
+    margin: 35px 23px 0 15px;
+}
+
+.school img {
+    max-width: 100%;
+    margin: 15px 0 0 0;
+}
+
+.school h2 {
+    font-size: 32px;
+    font-style: italic;
+    margin: 37px 316px 0 36px;
+}
+
+.school h3 {
+    font-size: 24px;
+    color: #26A682;
+    margin: 23px 120px 0 38px;
+}
+
+.school p {
+    font-size: 16px;
+    font-weight: 200;
+    margin: 15px 40px 0 38px;
+}
+
+.commonbutton {
+    background-color: #26A682;
+    color: #F2F2F2;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 60px;
+    width: 40vw;
+    border: none;
+    padding: 0.8rem;
+    margin: 32px 37px 35px 192px;
+    box-shadow: 0 10px 10px rgba(18, 80, 61, 0.5);
+}
+
+.simon {
+    background-color: #3C3B3A;
+    text-align: center;
+    padding: 30px 31px 59px 31px;
+}
+
+.simon img {
+    width: 30%;
+    border-radius: 70%;
+    
+}
+
+.simon h3 {
+    font-size: 24px;
+    color: #F2F2F2;
+    margin: 31px 0 21px 0;
+}
+
+.simon p {
+    font-size: 16px;
+    color: #F2F2F2;
+    line-height: 2;
+
+}
+
+.entertainment img {
+    max-width: 100%;
+}
+
+.entertainment h2 {
+    font-size: 32px;
+    font-style: italic;
+    margin: 37px 316px 0 36px;
+}
+
+.entertainment h3 {
+    font-size: 24px;
+    color: #26A682;
+    margin: 23px 120px 0 38px;
+}
+
+.entertainment p {
+    font-size: 16px;
+    font-weight: 200;
+    margin: 15px 40px 0 38px;
+}
+
+.follow {
+    background-color: #3C3B3A;
+    padding: 37px 19px 35px 116px;
+}
+
+.follow h3 {
+    color: #F2F2F2;
+}
+
+.follow ul li {
+    font-size: 9px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.follow .socialmedia {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 0 0;
+}
+
+.followus {
+    justify-content: center;
+    display: flex;
+}
+
+.what {
+    padding: 37px 48px 36px 37px;
+}
+.what h2 {
+    font-size: 40px;
+    font-weight: bold;
+    
+}
+
+.what p {
+    font-size: 16px;
+    line-height: 2;
+}
+
+.what img {
+    max-width: 100%;
+}
+
+.overcolor {
+    height: 200px;
+    display: flex;
+    background: no-repeat center center/cover;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.overcolor .uni {
+    background-image:url('images/about.jpg')
+}
+
+.overcolor .greenbox {
+    flex-grow: 1;
+    position: absolute;
+    background-color: #26A682;
+    mix-blend-mode: multiply;
+    z-index: 1;
+    left:0;top:0;right:0;bottom:0;
+}
+
+.overcolor h2 {
+    color: #F2F2F2;
+    font-size: 50px;
+    font-weight: bold;
+    position: relative;
+    z-index: 2;
+}
+
+.who {
+    padding: 32px 36px 0;
+}
+
+.who h2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0 0;
+}
+
+.who p {
+    font-size: 16px;
+    line-height: 2;
+    margin: 0 0 0 0;
+}
+
+.where {
+    padding: 0 36px 0;
+}
+
+.where h2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0 0 20px 0;
+}
+
+.where p {
+    font-size: 16px;
+    line-height: 2;
+    margin: 0 0 0 0;
+}
+
+.service img {
+    max-width:100%;
+}
+
+.need { 
+    padding: 20px 36px 28px 44px;
+}
+
+.need h2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0 0 0 0;
+}
+
+.need h3 {
+    color: #26A682;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.need p {
+    font-size: 15px;
+    line-height: 2;
+}
+
+.competitivecolor {
+    background-color: #F2F2F2;
+    padding: 32px 0 36px 0;
+}
+
+.competitive {
+    margin: 0 18px 33px 36px;
+}
+
+.competitive h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #3C3B3A;
+    margin: 0 0 0 0;
+}
+
+.competitive h3 {
+    font-size: 24px;
+    color: #26A682;
+    font-weight: 300;
+}
+
+.competitive p {
+    line-height: 2;
+    font-size: 16px;
+    margin: 0 5px 0 0;
+}
+
+.keep {
+    color: #F2F2F2;
+    font-size: 18px;
+}
+
+.backcolor{
+    background-color: #3C3B3A;
+    padding: 30px 34px 0 35px;
+}
+
+.subscribebutton {
+    background-color: #26A682;
+    color: #F2F2F2;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 60px;
+    width: 40vw;
+    border: none;
+    padding: 0.8rem;
+    margin: 32px 37px 35px 192px;
+    box-shadow: 0 10px 10px rgba(18, 80, 61, 0.5);
+}
+
+.newyear {
+    margin: 0 35px 30px 52px;
+}
+
+.newyear h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 29px 0 0 0;
+}
+
+.newyear h3 {
+    font-size: 24px;
+    color: #26A682;
+    margin: 15px 0 0 0;
+}
+
+.newyear p {
+    font-size: 15px;
+    line-height: 2;
+}
+
+.rock {
+    background-color: #F2F2F2;
+    padding: 32px 37px 36px 36px;
+}
+
+.climbing h2{
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0 0 0 0;
+}
+
+.climbing h3 {
+    font-size: 15px;
+    color:#26A682;
+}
+
+.climbing p{
+    font-size: 15px;
+    line-height: 2;
+}
