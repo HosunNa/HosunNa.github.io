@@ -6,6 +6,7 @@
 
 .page_header {
     display: flex;
+    overflow: hidden;
 }
 
 .buger_menu div {
