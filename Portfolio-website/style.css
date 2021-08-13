@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+
+
+* {margin: 0; padding: 0;}
+a { color: inherit; text-decoration: none;}
+
+
+
+body {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 16px;
+}
+
+
+
+
+
+.page_header {
+    background-color: #363844;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.page_header img {
+    width: 34px;
+    height: 36px; 
+    display: block;
+    margin: auto;
+    
+}
+
+.buger_menu div {
+    width: 25px;
+    height: 3px;
+    background-color: grey;
+    margin: 3px;
+}
+
+.line-1 {
+    height: 1px;
+    background: yellow;
+}
+.welcome img {
+    position: relative;
+    width: 100vw;
+    height: 123vw;
+    
+}
+
+.text {
+    position: absolute;
+    text-align: center;
+    left: 20px;
+    top: 80px;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    font-size: 5vw;
+}
+
+.text h1 {
+    padding:0 0 0 10px;
+}
+.text h2 {
+    font-size: 16px;
+}
+.aboutphoto img{
+    width: 60vw;
+    height: 60vw;
+    border-radius: 70%;
+    display: block;
+    margin: auto;
+    object-fit: cover;
+    border: 3px solid #FADA51;
+}
+#aboutPage {
+    background-color: #F5FAFE;
+}
+
+.aboutMe h1{
+    padding: 59px 10px 34px 100px;
+    font-family: 'Kanit', sans-serif;
+    
+}
+
+.about_text h2 {
+    padding: 41px 100px 37px 100px;
+}
+
+.about_text p {
+    padding: 0 43px 28px 43px;
+    line-height: 2;
+}
+
+.see_button a {
+    margin: 27px 150px 56px 150px;
+    font-size: 14px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.about_icons h2 {
+    margin: 58px 113px 34px 114px;
+}
+
+.about_icons img {
+    padding: 34px 92px 24px 70px;
+}
+
+.about_icons h3 {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 18px;
+    padding: 0 136px;
+}
+
+.menu {
+    background: #363844;
+    width: 100vw;
+}
+
+.menu li {
+    list-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+.contact_text h1 {
+    text-align: center;
+    font-family:'Kanit', sans-serif;
+    font-weight: 400;
+    padding: 9vw 0 10vw 0;
+}
+
+.contact_text img {
+    width: 50vw;
+    height: 50vw;
+    border-radius: 70%;
+    border: 3px solid #FADA51;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+}
+
+.contact_info {
+   list-style: square;
+   text-align: left;
+   margin: 9.6vw 0 15vw 18vw;
+}
