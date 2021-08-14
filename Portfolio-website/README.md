@@ -1,0 +1,2 @@
+How I created web portfolio?
+When I pushed my web portfolio html to the github, it could not find my website. I waited for a while, and then, I figured out why I could not see my website. The reason is that I typed Index.html instead of index.html, so I had to delete the original one and re-make the correct name of file on the visual studio. While I was making web portfolio site, I faced some of problem. 
