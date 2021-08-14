@@ -18,10 +18,6 @@ body {
     font-size: 16px;
 }
 
-
-
-
-
 .page_header {
     background-color: #363844;
     padding: 15px;
@@ -70,7 +66,7 @@ body {
     padding:0 0 0 10px;
 }
 .text h2 {
-    font-size: 16px;
+    font-size: 4.2vw;
 }
 .aboutphoto img{
     width: 60vw;
@@ -88,7 +84,6 @@ body {
 .aboutMe h1{
     padding: 59px 10px 34px 100px;
     font-family: 'Kanit', sans-serif;
-    
 }
 
 .about_text h2 {
@@ -141,45 +136,9 @@ body {
     margin: 2.4vw 0;
 }
 
-/*.menu_icons {
-    position: relative;
-    width: 64px;
-    height: 64px;
-    margin: 0 auto;
-}
-
-.menu_icons .line-box {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 100%;
-    height: 100%;
-}
-
-.menu_icons .line-box > span {
-    position: absolute;
-    top: 50%;
-    width: 100%;
-    height: 2px;
-    background-color: #000;
-}
-
-.menu_icons .shape-1 {
-    transform: rotate(135deg)
-    translateX(0%);
-}
-
-.menu_icons .shape-2 {
-    transform: rotate(45deg) translateX(0%);
-}*/
-
-
- /*이거 다시하기*/
 .menu_icons img {
     display: block;
-    width: 34px;
-    height: 36px; 
+    width: 10vw;
     margin: 0 auto;
 }
 
@@ -217,27 +176,36 @@ body {
 .siteWeb img {
     width: 55vw;
     margin: 0 0 0 22vw;
+    position: relative;
 
 }
 
 .portfolio_photo h2 {
-    position: absolute;
-    text-align: center;
-    left: 20px;
-    top: 80px;
-    color: white;
-    font-family: 'Kanit', sans-serif;
     font-size: 5vw;
+    text-align: center;
+    color: skyblue;
+    font-style: italic;
 }
 
 .portfolio_photo1 h2 {
-    position: absolute;
-    text-align: center;
-    left: 20px;
-    top: 80px;
-    color: white;
-    font-family: 'Kanit', sans-serif;
     font-size: 5vw;
+    text-align: center;
+    color: skyblue;
+    font-style: italic;
+}
+
+.portfolio_photo2 h2 {
+    font-size: 5vw;
+    text-align: center;
+    color: skyblue;
+    font-style: italic;
+}
+
+.siteWeb h2 {
+    font-size: 5vw;
+    text-align: center;
+    color: skyblue;
+    font-style: italic;
 }
 
 .portfolio_photo1 img{
@@ -253,7 +221,7 @@ body {
 .siteWeb{
     width: 99vw;
     height: 90vw;
-    margin-bottom: 5px;
+    margin-bottom: 8vw;
 }
 
 .logo h2 {
@@ -347,3 +315,356 @@ body {
 .footer-heading p {
     margin-bottom: 5px;
 }
+
+
+@media screen and (min-width: 376px) {
+    .text2 {
+        position: absolute;
+        text-align: right;
+        left: 20px;
+        top: 500px;
+        right: 100px;
+        color: white;
+        font-family: 'Kanit', sans-serif;
+        visibility: hidden;
+    }
+
+    .see_button a {
+        margin: 27px 150px 56px 150px;
+        font-size: 3.1vw;
+        font-family: 'Kanit', sans-serif;
+        font-weight: 400;
+    }
+
+    .see_button button {
+        font-size: 3.1vw;
+        border-radius: 20%;
+        padding: 2.6vw;
+        background-color: none;
+        border: hidden;
+    }
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 768px) {
+    .text {
+        position: absolute;
+        text-align: center;
+        left: 50px;
+        top: 120px;
+        color: white;
+        font-family: 'Kanit', sans-serif;
+        font-size: 6.5;
+        font-weight:normal;
+    }
+
+    .menu li {
+        list-style: none;
+        color: white;
+        font-size: 2vw;
+        font-family: 'Libre Franklin', sans-serif;
+        font-weight: normal;
+    }
+    
+    .text2 {
+        position: absolute;
+        text-align: right;
+        left: 20px;
+        top: 500px;
+        right: 100px;
+        color: white;
+        font-family: 'Kanit', sans-serif;
+        visibility: hidden;
+    }
+
+    .page_header img {
+        width: 9.2vw;
+        height: 9.6vw; 
+        display: block;
+        margin: auto;
+        
+    }
+
+    .aboutMe h1{
+        padding: 59px 10px 34px 10px;
+        font-family: 'Kanit', sans-serif;
+        text-align: center;
+    }
+
+    .about_text h2 {
+        padding: 41px 100px 37px 100px;
+        text-align: center;
+    }
+
+    .about_text p {
+        padding: 0 43px 28px 43px;
+        line-height: 2;
+        text-align: center;;
+    }
+
+
+    .see_button a {
+        margin: 27px 150px 56px 330px;
+        font-size: 3.1vw;
+        font-family: 'Kanit', sans-serif;
+        font-weight: 400;
+    }
+
+    .see_button button {
+        font-size: 3.1vw;
+        border-radius: 20%;
+        padding: 2.6vw;
+        background-color: none;
+        border: hidden;
+    }
+
+
+
+    .about_icons h2 {
+        margin: 58px 113px 34px 114px;
+        text-align: center;
+    }
+
+    .about_icons img {
+        padding: 34px 92px 24px 260px;
+    }
+    
+    .about_icons h3 {
+        font-family: 'Noto Sans', sans-serif;
+        font-size: 18px;
+        padding: 0 330px;
+    }
+    
+    .footer {
+        width: 100%;
+        height: 100%;
+        color: white;
+        display: flex;
+        justify-content: space-evenly;
+        font-size:1vw;
+        flex-wrap: no-wrap;
+        margin: 15px;
+    }
+
+    .footer-heading h3 {
+        margin-bottom: 10px;
+        font-size: 3vw;
+        font-weight: 300;
+    }
+    
+    .footer-heading a {
+        margin-bottom: 5px;
+        font-size: 2vw;
+    }
+
+    .footer-heading p {
+        margin-bottom: 5px;
+        font-size: 2vw;
+    }
+    .about_text p {
+        padding: 0 43px 28px 43px;
+        line-height: 2;
+        font-size: 2.6vw;
+    }
+    
+    .logo h2 {
+        margin: 58px 113px 20px 114px;
+        text-align: center;
+        font-size: 5.4vw;
+        font-weight:bold;
+    }
+
+    .illustration_photos h2 {
+        margin: 50px 60px 34px 80px;
+        text-align: center;
+        font-size: 5.4vw;
+    }
+
+    .photoshop .footer-container {
+            background-color: #363844;
+            padding: 5vw; 
+    }
+
+    .web_design h2 {
+        margin: 50px 60px 34px 125px;
+        text-align: center;
+        font-size: 5.4vw;
+    }
+
+    .photography_box h2 {
+        margin: 50px 60px 34px 110px;
+        text-align: center;
+        font-size: 5.4vw;
+    }
+
+    .photography_box h3 {
+        margin: 22px 138px 17px 120px;
+        text-align: center;
+        font-size: 3.3vw;
+    }
+    
+    .contact_text h1 {
+        text-align: center;
+        font-family:'Kanit', sans-serif;
+        font-weight: 400;
+        padding: 9vw 0 10vw 0;
+        font-size: 5.4vw;
+    }
+
+    .contact_info {
+        list-style: square;
+        text-align: left;
+        margin: 9.6vw 15vw 15vw 25vw;
+        font-size: 3.1vw;
+     }
+
+     .siteWeb{
+        width: 99vw;
+        height: 90vw;
+        margin-bottom: 8vw;
+    }
+
+    }
+     @media screen and (min-width: 1200px) {
+        .page_header img {
+            display: block;
+            margin: auto;
+        
+        }
+
+        .page_header {
+            background-color: #363844;
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .buger_menu div {
+            width: 25px;
+            height: 3px;
+            background-color: grey;
+            margin: 3px;
+        }
+        
+        .text2 h2 {
+            color: black;
+            font-family: 'Kanit', sans-serif;
+            font-size: 8vw;
+        }
+
+        .text2 {
+            position: absolute;
+            text-align: right;
+            left: 20px;
+            top: 500px;
+            right: 100px;
+            color: white;
+        }
+
+        .aboutMe h1{
+            padding: 59px 10px 34px 100px;
+            font-family: 'Kanit', sans-serif;
+            visibility: hidden;
+        }
+
+        .aboutphoto img{
+            width: 33vw;
+            height: 33vw;
+            border-radius: 70%;
+            display: block;
+            margin: auto;
+            object-fit: cover;
+            border: 3px solid #FADA51;
+        }
+        .about_text h2 {
+            padding: 41px 100px 37px 100px;
+            font-size: 4.1vw;
+        }
+
+        .see_button a {
+            margin: 27px 150px 56px 500px;
+            font-size: 3.1vw;
+            font-family: 'Kanit', sans-serif;
+            font-weight: 400;
+        }
+    
+        .see_button button {
+            font-size: 3.1vw;
+            border-radius: 20%;
+            padding: 2.6vw;
+            background-color: none;
+            border: hidden;
+        }
+
+        .about_icons h2 {
+            margin: 58px 113px 34px 114px;
+            text-align: center;
+            font-size: 3.3vw;
+        }
+
+
+        .about_icons img {
+            margin: 34px 92px 24px 200px;
+            width: 21vw;
+
+        }
+        .about_icons h3 {
+            margin: 58px 113px 34px 114px;
+            text-align: center;
+            font-size: 3.3vw;
+        }
+        .menu li {
+            list-style: none;
+            color: white;
+            font-size: 3vw;
+            font-family: 'Libre Franklin', sans-serif;
+            font-weight: normal;
+        }
+        .menu_icons img {
+            display: block;
+            width: 12.5vw;
+            height: 12.5vw; 
+            margin: 0 auto;
+        }
+        
+        .siteWeb{
+            width: 99vw;
+            height: 90vw;
+            margin-bottom: 8vw;
+        }
+
+        #menu_web {
+            background: #363844;
+            height: 100vh;
+            width:100vw;
+            padding: 16vw 8vw 94vw 8vw;
+        }
+
+        .photoshop_photo h2 {
+            margin: 50px 60px 34px 120px;
+            font-size: 3.3vw;
+            text-align: center;
+        }
+
+        .photography_box img {
+            width: 50vw;
+            margin: 0 0 0 23vw;
+        }
+
+        .photoshop_photo img {
+            width: 50vw;
+            margin: 0 0 0 23vw;
+        }
+
+        .web_design img {
+            width: 50vw;
+            margin: 0 0 0 23vw;
+        }
+     }
+    
